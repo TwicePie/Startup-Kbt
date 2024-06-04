@@ -1,0 +1,198 @@
+
+
+.homenav {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom:1px solid ;
+}
+
+
+.search {
+    padding-top: 33px;
+    width: 50%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 48px;
+    height: 46px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.slogan {
+    color: white;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+
+
+.homenav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    padding-right: 40px;
+}
+
+.homenav-logo p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.nav-world{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: -60px;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-world p {
+    font-size: 20px;
+}
+
+.nav-login{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login button {
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 75px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #010922;
+    cursor: pointer;
+}
+
+.model{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  text-align: center;
+}
+
+.close-button {
+  float: right;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+}
+
+.close-button :hover {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.login-input {
+  width: 50%;
+    border: 0.5px solid;
+    padding-left: 15px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    color: #9DBFAF;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+}
+
+.model p {
+  padding-bottom: 60px;
+}
+
+.model a:visited {
+  color: blue;
+}
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}

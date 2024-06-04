@@ -1,0 +1,35 @@
+.foot {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    background-color: #F9F9F9;
+    border-top: 1px solid;
+}
+
+.foot-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    padding-right: 800px;
+}
+
+.foot-logo p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.brand-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+.brand-link p {
+    font-size: 20px;
+}

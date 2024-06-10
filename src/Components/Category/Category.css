@@ -1,33 +1,67 @@
 .category {
-    text-align: center;
-    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
-    padding-bottom: 300px;
+  text-align: center;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  padding-bottom: 300px;
+  background-color: white;
 }
 
 .category-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 200px; /* Optional: adds spacing between items */
-  padding-top: 80px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 80px;
 }
 
 .category-item {
-  margin: 5px;
-  width: 180px;
-  box-sizing: border-box; /* Ensure padding and border are included in the width */
+margin: 5px;
+width: 500px;
+border: 1px solid white;
+border: none !important;
 }
 
-.category-item:hover {
-  border: 1px solid #777;
+
+
+.card img {
+align-items: center;
+width: 250px;
+height: 300px;
+height: auto;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+border: none;
+
 }
 
-.category-item img {
-  width: 100%;
-  height: auto;
+.category-item a {
+border: none;
+border: 1px solid white;
 }
 
 .desc {
-  padding: 15px;
-  text-align: center;
+padding: 15px;
+text-align: center;
+border: none;
 }
+
+.card {
+/* Add shadows to create the "card" effect */
+display: grid;
+width: 13.2%;
+border-radius: 40px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+padding-top: 5px;
+padding-bottom: 50px;
+}
+
+
+

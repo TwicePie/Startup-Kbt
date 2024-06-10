@@ -12,7 +12,7 @@ export default function Footer() {
     <div>
         <div className="foot">
             <div className="foot-logo">
-            <p>GrowHatch</p>
+            <p>CariSta</p>
             <img src={Vector} alt=''/>
             </div>
 

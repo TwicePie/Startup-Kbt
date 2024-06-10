@@ -18,15 +18,10 @@ export default function Navbar() {
     <div className='navbar'>
       <div className="nav">
       <div className="nav-logo">
-        <p>GrowHatch</p>
+        <p>CariSta</p>
             <img src={Vector} alt=''/>
         </div>
-        <ul className='nav-menu'>
-            <li><a href='/#dashboard'>Home</a></li>
-            <li><a href='/#category'>Category</a></li>
-            <li><a href='/#aboutus'>About</a></li>
 
-        </ul>
         <div className="nav-world">
         <FontAwesomeIcon icon={faGlobe} />
             <p>English</p>

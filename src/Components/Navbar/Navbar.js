@@ -27,6 +27,10 @@ export default function Navbar() {
         </div>
         <div className="nav-login">
 
+        <a className="about-link" href='/#dashboard'>
+        <button className='homebutton' >Home</button>
+        </a>
+
         <a className="about-link" href='/#about'>
         <button className='aboutbutton' >About Us</button>
         </a>

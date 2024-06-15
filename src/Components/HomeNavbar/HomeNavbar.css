@@ -131,22 +131,22 @@
   gap: 45px;
 }
 
-.login-button {
-  width: 107px;
-  height: 58px;
-  margin-left: 20px;
-  color: white;
+.homenav-login button {
+  width: 157px;
+    height: 58px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 75px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #010922;
+    cursor: pointer;
+}
 
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
 
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
+.white-login-button:hover {
+  color: rgb(155, 155, 155);
 }
 
 .model{

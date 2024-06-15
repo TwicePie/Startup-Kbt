@@ -16,6 +16,10 @@ export default function HomeNavbar() {
 
   const navigate = useNavigate();
 
+  const handleSignUpClick = () => {
+    window.location.href = '/#login';
+  };
+
   return (
     <div>
         <div className="homenav">
@@ -42,7 +46,7 @@ export default function HomeNavbar() {
             <p>English</p>
             </div>
             <div className="homenav-login">
-            <button onClick={()=>setvisible(true)}>Sign In</button>
+            <button onClick={handleSignUpClick}>Sign In</button>
             <Model className="model" isOpen={visible} onRequestClose={()=>setvisible(false)} style={{
               content:{
                 position: "absolute",

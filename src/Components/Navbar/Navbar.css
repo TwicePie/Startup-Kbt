@@ -234,7 +234,7 @@ a:link {
   outline: 0;
 }
 
-.aboutbutton, .login-button {
+.aboutbutton, .login-button, .homebutton {
   width: 107px;
   height: 58px;
   margin-left: 20px;
@@ -250,7 +250,7 @@ a:link {
   outline: none;
 }
 
-.aboutbutton:hover, .login-button:hover {
+.aboutbutton:hover, .login-button:hover, .homebutton:hover {
   color: rgb(156, 156, 156);
 }
 

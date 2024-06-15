@@ -1,0 +1,62 @@
+.startup-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px; /* Optional: adds spacing between items */
+    padding-top: 50px;
+    padding-bottom: 160px;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.home-card img {
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    height: auto;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border: none;
+    
+    }
+    
+    .category-item a {
+    border: none;
+    border: 1px solid white;
+    }
+    
+    .desc {
+    padding: 15px;
+    text-align: center;
+    border: none;
+    }
+    
+    .home-card {
+    /* Add shadows to create the "card" effect */
+    display: grid;
+    width: 18.2%;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .home-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .home-card h2 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .home-card p {
+        padding-left: 10px;
+    }
+    
+    /* Add some padding inside the card container */
+    .home-container {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    }

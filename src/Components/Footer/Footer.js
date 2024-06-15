@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="foot">
             <div className="foot-logo">
             <p>CariSta</p>
-            <img src={Vector} alt=''/>
+            <img src={Vector} alt='' width='40px' height='40px'/>
             </div>
 
             <div className="brand-link">

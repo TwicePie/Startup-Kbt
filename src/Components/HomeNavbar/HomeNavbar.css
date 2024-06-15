@@ -9,6 +9,13 @@
   background-color: white;
 }
 
+.homenavblack {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background-image: linear-gradient(12deg, #8080D7 3%, #010922 116%);
+}
 
 .search {
   padding-top: 33px;
@@ -67,16 +74,32 @@
 .homenav-logo{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   color: black;
   font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
   padding-right: 40px;
 }
 
 .homenav-logo p {
-  font-size: 35px;
+  font-size: 33px;
   font-weight: bold;
 }
+
+.homenavblack-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(255, 255, 255);
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  padding-right: 40px;
+}
+
+.homenavblack-logo p {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+
 
 
 .nav-menu{
@@ -102,23 +125,28 @@
   font-size: 20px;
 }
 
-.nav-login{
+.homenav-login{
   display: flex;
   align-items: center;
   gap: 45px;
 }
 
-.nav-login button {
-  width: 157px;
+.login-button {
+  width: 107px;
   height: 58px;
-  outline: none;
-  border: 2px solid white;
-  border-radius: 75px;
+  margin-left: 20px;
   color: white;
+
   font-size: 20px;
   font-weight: 500;
-  background-color: #010922;
   cursor: pointer;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 .model{
@@ -209,3 +237,21 @@ border: none;
 .back-landing button:hover {
 color: #7F7F7F;
 }
+
+.black-back-landing button {
+  color: rgb(255, 255, 255);
+  padding-right: 10px;
+  font-size: 20px;
+  border: none;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  }
+  
+  .black-back-landing button:hover {
+  color: #212121;
+  }

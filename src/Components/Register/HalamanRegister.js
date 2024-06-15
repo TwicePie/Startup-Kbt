@@ -31,6 +31,14 @@ export default function HalamanRegister() {
     return (
         <div className='register-container'>
             <div className='header'>
+
+            <div className='register-back-landing'>
+        <button onClick={() => navigate(-1)}>
+        <FontAwesomeIcon icon={faArrowLeft} />
+        </button>
+
+        </div>
+
                 <h2 className='text'>Sign-Up</h2>
                 <div className='underline'></div>
             </div>

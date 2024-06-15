@@ -10,7 +10,7 @@ import Model from "react-modal"
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-export default function HomeNavbar() {
+export default function HomeNavbarBlack() {
 
   const [visible, setvisible]= useState(false)
 
@@ -18,9 +18,9 @@ export default function HomeNavbar() {
 
   return (
     <div>
-        <div className="homenav">
-      <div className="homenav-logo">
-        <div className='back-landing'>
+        <div className="homenavblack">
+      <div className="homenavblack-logo">
+        <div className='black-back-landing'>
         <button onClick={() => navigate(-1)}>
         <FontAwesomeIcon icon={faArrowLeft} />
         </button>
@@ -42,7 +42,7 @@ export default function HomeNavbar() {
             <p>English</p>
             </div>
             <div className="homenav-login">
-            <button onClick={()=>setvisible(true)}>Sign In</button>
+            <button className='login-button'onClick={()=>setvisible(true)}>Sign In</button>
             <Model className="model" isOpen={visible} onRequestClose={()=>setvisible(false)} style={{
               content:{
                 position: "absolute",
@@ -64,7 +64,7 @@ export default function HomeNavbar() {
               <button class="button-13" role="button">Sign In</button>
             </Model>
             <a className="register-link" href='/#register'>
-            <button className='register' >Join Us</button>
+            <button className='register-button' >Join Us</button>
             </a>
         </div>
       </div>

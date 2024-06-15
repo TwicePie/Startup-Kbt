@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './HalamanLogin.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faKey, faArrowLeft  } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -27,6 +27,13 @@ export default function HalamanLogin() {
     return (
         <div className='login-container'>
             <div className='header'>
+
+            <div className='login-back-landing'>
+            <button onClick={() => navigate(-1)}>
+            <FontAwesomeIcon icon={faArrowLeft} />
+            </button>
+            </div>
+
                 <h2 className='text'>Login</h2>
                 <div className='underline'></div>
             </div>

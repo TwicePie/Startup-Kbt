@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(135deg, #8080D7 0%, #010922 100%);
     background-repeat: no-repeat;
-    height: 84.1vh;
+
 }
 
 .login-container {
@@ -13,6 +13,7 @@ body {
     background: #fff;
     padding-bottom: 30px;
     border-radius: 20px;
+    
 }
 
 .header {
@@ -103,3 +104,18 @@ body {
 .signup-text a:hover {
     text-decoration: underline;
 }
+
+.login-back-landing {
+    padding-right: 520px;
+}
+
+.login-back-landing button {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .login-back-landing button:hover {
+    color: #7F7F7F;
+  }

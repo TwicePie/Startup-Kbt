@@ -10,14 +10,14 @@
 .foot-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     color: black;
     font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
     padding-right: 800px;
 }
 
 .foot-logo p {
-    font-size: 30px;
+    font-size: 33px;
     font-weight: bold;
 }
 

@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="nav">
         <div className="nav-logo">
           <p>CariSta</p>
-          <img src={Vector} alt='' />
+          <img src={Vector} alt='' width='40px' height='40px'/>
         </div>
 
         <div className="nav-world">
@@ -26,7 +26,12 @@ export default function Navbar() {
           <p>English</p>
         </div>
         <div className="nav-login">
-          <button onClick={handleSignUpClick}>Sign Up</button>
+
+        <a className="about-link" href='/#about'>
+        <button className='aboutbutton' >About Us</button>
+        </a>
+
+          <button className='login-button' onClick={handleSignUpClick}>Sign In</button>
           <Model 
             className="model" 
             isOpen={visible} 
@@ -51,23 +56,27 @@ export default function Navbar() {
             <button className="button-13" role="button">Sign In</button>
           </Model>
           <a className="register-link" href='/#register'>
-            <button className='register'>Join Us</button>
+            <button className='register-button'>Join Us</button>
           </a>
         </div>
       </div>
 
       <div className="slogan">
-        <h1>Find the right startup investors,<br /> the right way</h1>
+        <h1>Find the right startup,<br /> the right way</h1>
       </div>
 
-      <div className="jumbotron">
-        <div className="search">
+      <div className='flex-container'>
+      <div className="search">
           <input type="text" className="searchTerm" placeholder="What are you looking for?" />
           <button type="submit" className="searchButton">
             <FontAwesomeIcon icon={faMagnifyingGlass} />
           </button>
         </div>
-        <img src={hand} alt='' />
+
+      <div className="jumbotron">
+        <img src={hand} alt='' widhth='850' height='850'/>
+      </div>
+
       </div>
     </div>
   );

@@ -3,7 +3,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Landing from "./Pages/Landing"
 import Home from "./Pages/Home"
 import Register from './Pages/Register';
-import Login from './Pages/Login'
+import Login from './Pages/Login';
+import About from './Pages/About';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/dashboard" element={<Home/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/about" element={<About/>} />
       </Routes>
     </HashRouter>
   );

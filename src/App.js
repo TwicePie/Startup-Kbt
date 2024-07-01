@@ -5,6 +5,8 @@ import Home from "./Pages/Home"
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import About from './Pages/About';
+import CreateStartup from './Pages/CreateStartup';
+import HalamanStartup from './Pages/HalamanStartup';
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/create" element={<CreateStartup/>} />
+        <Route path="/halamanstartup" element={<HalamanStartup/>} />
       </Routes>
     </HashRouter>
   );

@@ -8,17 +8,20 @@
     padding-bottom: 160px;
     justify-content: left;
     padding-left: 50px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
 
 .home-card img {
     align-items: center;
-    width: 250px;
-    height: 300px;
-    height: auto;
+    float: left;
+    width:  300px;
+    height: 100px;
+    object-fit: cover;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     border: none;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
     }
     
     .category-item a {
@@ -35,6 +38,7 @@
     .home-card {
     /* Add shadows to create the "card" effect */
     display: grid;
+    justify-content: center;
     width: 18.2%;
     border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

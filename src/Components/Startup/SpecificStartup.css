@@ -1,0 +1,44 @@
+.specific-startup-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px; /* Optional: adds spacing between items */
+    padding-top: 50px;
+    padding-bottom: 560px;
+    justify-content: left;
+    padding-left: 50px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.images-category {
+    width: 450px;
+    height: 200px;
+    display: grid;
+}
+
+.images-category img {
+    align-items: center;
+    float: left;
+    width:  450px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.startup-information {
+    width: 800px;
+}
+
+.startup-information h1 {
+    font-size: 70px;
+    margin-top: -10px;
+}
+
+.startup-information h2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.startup-information p {
+    text-align: justify;
+}

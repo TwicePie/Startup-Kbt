@@ -19,7 +19,7 @@ export default function HalamanRegister() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        axios.post('http://localhost:8081/kbt_stratup', values)
+        axios.post('http://localhost:8081/kbt_startup', values)
         .then(res => {
             console.log("register success!!");
             // Setelah berhasil registrasi, arahkan ke halaman landing (misalnya '/')

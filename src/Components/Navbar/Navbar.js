@@ -27,10 +27,6 @@ export default function Navbar() {
         </div>
         <div className="nav-login">
 
-        <a className="about-link" href='/#dashboard'>
-        <button className='homebutton' >Home</button>
-        </a>
-
         <a className="about-link" href='/#about'>
         <button className='aboutbutton' >About Us</button>
         </a>
@@ -66,7 +62,7 @@ export default function Navbar() {
       </div>
 
       <div className="slogan">
-        <h1>Find the right startup,<br /> the right way</h1>
+        <h1>Cari  startup Benar,<br /> Dengan mudah dan baik</h1>
       </div>
 
       <div className='flex-container'>

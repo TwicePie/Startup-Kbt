@@ -46,15 +46,13 @@ export default function HomeNavbar() {
             <p>English</p>
             </div>
             <div className="homenav-login">
-            <button onClick={handleSignUpClick}>Sign In</button>
+  
 
             <a className='register-link' href='/#create'>
-            <button className='register'>+ CREATE STARTUP</button>
+            <button className='register'>CREATE+</button>
             </a>
            
-            <a className="register-link" href='/#register'>
-            <button className='register' >Join Us</button>
-            </a>
+
         </div>
       </div>
     </div>
